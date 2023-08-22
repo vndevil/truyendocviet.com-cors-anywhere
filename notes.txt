@@ -1,2 +1,3 @@
-https://dashboard.render.com/
-truyendocviet.com@gmail.com
+https://truyendocviet-com.onrender.com
+account: truyendocviet.com@gmail.com
+github: vndevil@gmail.com

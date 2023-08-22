@@ -23,7 +23,7 @@ var cors_proxy = require('./lib/cors-anywhere');
 cors_proxy.createServer({
   originBlacklist: originBlacklist,
   //originWhitelist: originWhitelist,
-  originWhitelist: ['https://truyendocviet.com', 'https://localhost'],
+  originWhitelist: ['https://truyendocviet.com', '*'],
   requireHeader: ['origin', 'x-requested-with'],
   checkRateLimit: checkRateLimit,
   removeHeaders: [

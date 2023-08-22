@@ -47,7 +47,7 @@ cors_proxy.createServer({
     xfwd: false,
   },
 }).listen(port, host, function () {
-  console.log('Running CORS Anywhere on ' + host + ':' + port);
+  console.log('Running CORS Anywhere for truyendocviet.com 22/8/2023 ' + host + ':' + port);
 });
 
 // Câu lệnh update version mới cho heroku:
